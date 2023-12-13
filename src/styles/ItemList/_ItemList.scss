@@ -1,0 +1,21 @@
+.list_container {
+    margin: 20px;
+    padding: 30px;
+}
+
+.list_title {
+    font-size: 70px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #2b29b9;
+}
+
+.list_item {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: auto;
+	grid-template-areas: 'left right' ;
+	padding: 10px;
+    gap: 50px;
+}

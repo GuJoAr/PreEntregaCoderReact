@@ -1,12 +1,9 @@
 import { BsCart4 } from "react-icons/bs";
-import { IconContext } from "react-icons";
 
 const CartWidget = () => {
     return (
-        <div className="cart">
-            <IconContext.Provider value={{ color: "#8139bd", size: "30px" }}>
-                <a href="#"><BsCart4 /></a>
-            </IconContext.Provider>
+        <div className="cart font-medium text-lg flex items-center gap-2">
+            <BsCart4 />(0)
         </div>
     )
 }

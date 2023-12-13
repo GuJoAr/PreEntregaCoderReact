@@ -1,15 +1,12 @@
-
 .header {
-    background-color: #34d399;
+    background-image: linear-gradient(90deg,#5868de 20%, #68dcb9 70%);
 }
 .container {
+    max-width: 100%;
     padding: 10px;
-    display: flex;
-    justify-content:space-between;
-    align-items: center;
+    @include flex (null,center,space-between);
     img {
-        width: 100px;
-        height: 100px;
+        @include imagenes (100px,100px,cover);
     }
     h1 {
         margin: 10px;
@@ -21,11 +18,11 @@
         margin-left: auto;
         &__link {
             text-decoration: none;
-            color: white;
+            color: rgba(52, 52, 52, 0.902);
             font-weight: 700;
             font-size: 24px;
             &:hover {
-                color:#818cf8;
+                color:#d42828;
             }
         }
     }

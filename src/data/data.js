@@ -1,0 +1,99 @@
+
+export const DATA = [
+    {
+        id: 1,
+        categoria:'notebooks',
+        name: 'Notebook Gamer ASUS ROG STRIX',
+        price: 11000,
+        img: "productos/notebooks/ASUS_ROG_STRIX_15.6_Ryzen_7_6800H_16GB_DDR5_512GB_SSD_RTX_3060.png",
+        description: `Notebook Gamer ASUS ROG STRIX G513RM 15.6" Ryzen 7 6800H 16GB DDR5 512GB SSD RTX 3060 - Notebook Gamer ASUS ROG STRIX G513RM 15.6" Ryzen 7 6800H 16GB DDR5 512GB SSD RTX 3060 - Notebook Gamer ASUS ROG STRIX G513RM 15.6" Ryzen 7 6800H 16GB DDR5 512GB SSD RTX 3060.`
+    },
+    {
+        id: 2,
+        categoria:'notebooks',
+        name: 'Notebook Gigabyte G5',
+        price: 10500,
+        img: "productos/notebooks/Gigabyte_G5_KE_15.6_16GB_512GB_SSD_RTX_3060P.png",
+        description: `Notebook Gigabyte G5 KE 15.6" FHD IPS i5-12500H 16GB (2x8GB) 512GB SSD NVMe RTX 3060P Free Dos 144hz - Notebook Gigabyte G5 KE 15.6" FHD IPS i5-12500H 16GB (2x8GB) 512GB SSD NVMe RTX 3060P Free Dos 144hz - Notebook Gigabyte G5 KE 15.6" FHD IPS i5-12500H 16GB (2x8GB) 512GB SSD NVMe RTX 3060P Free Dos 144hz.`
+    },
+    {
+        id: 3,
+        categoria:'notebooks',
+        name: 'Notebook Gamer XPG XENIA',
+        price: 10000,
+        img: "productos/notebooks/XENIA_XPG_15.6_Core_i7_12650H_16GB_512GB_SSD_RTX_4050_6GB.png",
+        description: `Notebook Gamer XPG XENIA FHD IPS 15.6" Core i7 12650H 16GB 512GB SSD NVMe RTX 4050 6GB W11 144Hz - Notebook Gamer XPG XENIA FHD IPS 15.6" Core i7 12650H 16GB 512GB SSD NVMe RTX 4050 6GB W11 144Hz - Notebook Gamer XPG XENIA FHD IPS 15.6" Core i7 12650H 16GB 512GB SSD NVMe RTX 4050 6GB W11 144Hz.`
+    },
+    {
+        id: 4,
+        categoria:'notebooks',
+        name: 'Notebook Gamer Thunderobot 911 AIR',
+        price: 9500,
+        img: "productos/notebooks/Thunderobot_911_AIR_15.6_Core_I7_12700H_16GB_512GB_SSD_RTX_3050.png",
+        description: `Notebook Gamer Thunderobot 911 AIR FHD IPS 15.6" Core I7 12700H 16GB 512GB SSD NVMe RTX 3050 W11 Pro 144Hz - Notebook Gamer Thunderobot 911 AIR FHD IPS 15.6" Core I7 12700H 16GB 512GB SSD NVMe RTX 3050 W11 Pro 144Hz - Notebook Gamer Thunderobot 911 AIR FHD IPS 15.6" Core I7 12700H 16GB 512GB SSD NVMe RTX 3050 W11 Pro 144Hz.`
+    },
+    {
+        id: 5,
+        categoria:'notebooks',
+        name: 'Notebook Lenovo ThinkPad',
+        price: 9000,
+        img: "productos/notebooks/Lenovo_ThinkPad_14_Core_I7_1165G7_8GB_256GB_SSD.png",
+        description: `Notebook Lenovo ThinkPad E14 FHD 14" Core I7 1165G7 8GB 256GB SSD NVMe Freedos - Notebook Lenovo ThinkPad E14 FHD 14" Core I7 1165G7 8GB 256GB SSD NVMe Freedos - Notebook Lenovo ThinkPad E14 FHD 14" Core I7 1165G7 8GB 256GB SSD NVMe Freedos.`
+    },
+    {
+        id: 6,
+        categoria:'notebooks',
+        name: 'Notebook Gamer Thunderobot 911',
+        price: 8500,
+        img: "productos/notebooks/Thunderobot_911_AIR_15.6_Core_I5_12450H_16GB_512GB_SSD_RTX_3050TI.png",
+        description: `Notebook Gamer Thunderobot 911 AIR FHD IPS 15.6" Core I5 12450H 16GB 512GB SSD NVMe RTX 3050TI W11 Pro 144Hz - Notebook Gamer Thunderobot 911 AIR FHD IPS 15.6" Core I5 12450H 16GB 512GB SSD NVMe RTX 3050TI W11 Pro 144Hz - Notebook Gamer Thunderobot 911 AIR FHD IPS 15.6" Core I5 12450H 16GB 512GB SSD NVMe RTX 3050TI W11 Pro 144Hz.`
+    },
+    {
+        id: 7,
+        categoria:'mothers',
+        name: 'Mother ASUS ROG MAXIMUS Z790',
+        price: 7500,
+        img: "productos/mothers/ASUS_ROG_MAXIMUS_Z790_LGA1700_DDR5.png",
+        description: `Mother ASUS ROG MAXIMUS Z790 LGA1700 DDR5 Mother ASUS ROG MAXIMUS Z790 LGA1700 DDR5 Mother ASUS ROG MAXIMUS Z790 LGA1700 DDR5 Mother ASUS ROG MAXIMUS Z790 LGA1700 DDR5.`
+    },
+    {
+        id: 8,
+        categoria:'mothers',
+        name: 'Mother ASUS ROG STRIX Z790-A GAMING WIFI',
+        price: 7500,
+        img: "productos/mothers/ASUS_ROG_STRIX_Z790-A_GAMING_WIFI_LGA1700_DDR5.png",
+        description: `Mother ASUS ROG STRIX Z790-A GAMING WIFI LGA1700 DDR5 Mother ASUS ROG STRIX Z790-A GAMING WIFI LGA1700 DDR5 Mother ASUS ROG STRIX Z790-A GAMING WIFI LGA1700 DDR5 Mother ASUS ROG STRIX Z790-A GAMING WIFI LGA1700 DDR5.`
+    },
+    {
+        id: 9,
+        categoria:'mothers',
+        name: 'Mother ASUS ROG MAXIMUS Z690 HERO EVA',
+        price: 8000,
+        img: "productos/mothers/ASUS_ROG_MAXIMUS_Z690_HERO_EVA_12th_13th_Gen_DDR5.png",
+        description: `Mother ASUS ROG MAXIMUS Z690 HERO EVA 12th/13th Gen DDR5 Mother ASUS ROG MAXIMUS Z690 HERO EVA 12th/13th Gen DDR5 Mother ASUS ROG MAXIMUS Z690 HERO EVA 12th/13th Gen DDR5 Mother ASUS ROG MAXIMUS Z690 HERO EVA 12th/13th Gen DDR5.`
+    },
+    {
+        id: 10,
+        categoria:'mothers',
+        name: 'Mother Asrock X670E Taichi Carrara AM5',
+        price: 7500,
+        img: "productos/mothers/Asrock_X670E_Taichi_Carrara_AM5.png",
+        description: `Mother Asrock X670E Taichi Carrara AM5 Mother Asrock X670E Taichi Carrara AM5 Mother Asrock X670E Taichi Carrara AM5 Mother Asrock X670E Taichi Carrara AM5 Mother Asrock X670E Taichi Carrara AM5.`
+    },
+    {
+        id: 11,
+        categoria:'mothers',
+        name: 'Mother ASUS ROG CROSSHAIR X670E HERO',
+        price: 7000,
+        img: "productos/mothers/ASUS_ROG_CROSSHAIR_X670E_HERO.png",
+        description: `Mother ASUS ROG CROSSHAIR X670E HERO Mother ASUS ROG CROSSHAIR X670E HERO Mother ASUS ROG CROSSHAIR X670E HERO Mother ASUS ROG CROSSHAIR X670E HERO Mother ASUS ROG CROSSHAIR X670E HERO Mother ASUS ROG CROSSHAIR X670E HERO.`
+    },
+    {
+        id: 12,
+        categoria:'mothers',
+        name: 'Mother ASUS ROG STRIX X670E-A GAMING WIFI',
+        price: 6500,
+        img: "productos/mothers/ASUS_ROG_STRIX_X670E-A_GAMING_WIFI_AM5_DDR5.png",
+        description: `Mother ASUS ROG STRIX X670E-A GAMING WIFI AM5 DDR5 Mother ASUS ROG STRIX X670E-A GAMING WIFI AM5 DDR5 Mother ASUS ROG STRIX X670E-A GAMING WIFI AM5 DDR5 Mother ASUS ROG STRIX X670E-A GAMING WIFI AM5 DDR5.`
+    },
+]

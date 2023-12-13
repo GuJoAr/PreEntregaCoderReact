@@ -1,2 +1,11 @@
+//reset
+@import './Base/utilidades';
+@import './Base/reset';
+
+//components
 @import './Navbar/Navbar';
+@import './CartWidget/CartWidget';
 @import './ItemListContainer/ItemListContainer';
+@import './ItemList/ItemList';
+@import './Item/Item';
+@import './Contacto/Contacto';

@@ -1,15 +1,32 @@
+import ItemList from "../ItemList/ItemList"
+// import useProductos from "../../hooks/useProductos"
+import { useEffect, useState } from "react"
+import { useParams } from "react-router-dom"
+import { pedirDatos } from "../../utils/utilidades"
 
-/*me daba un error en el ({greeting}) que decia "'greeting' is missing in props validationeslintreact/prop-types
-(parameter) greeting: any" y cuando ponia el mouse arriba me ponia esta solucion "// eslint-disable-next-line react/prop-types"*/
 
-// eslint-disable-next-line react/prop-types
-const ItemListContainer = ({greeting}) => {
+const ItemListContainer = (  ) => {
+    const [productos, setProductos] = useState([])
+    const {categoria}  = useParams()
+    // console.log(categoriaId)
+
+    useEffect(() => {
+        pedirDatos()
+            .then((data) => {
+                const items = categoria 
+                                ? data.filter(prod => prod.categoria === categoria)
+                                : data
+                setProductos(items)
+            })
+    }, [categoria])
+
+    // const productos = useProductos()
 
     return (
-        <section className="list_container">
-            <h2 className="list_title">Productos</h2>
-            <p>{greeting}</p>
-        </section>
+        <div>
+            <ItemList productos={productos}/>
+        </div>
+        
     )
 }
 
