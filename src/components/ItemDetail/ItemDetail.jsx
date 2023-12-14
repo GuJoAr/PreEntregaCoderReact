@@ -1,7 +1,7 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom"
 
 
-const Item = ({item}) => {
+const ItemDetail = ({ item }) => {
 
     return (
         <article className="item">
@@ -9,9 +9,10 @@ const Item = ({item}) => {
             <h3 className="item_title">{item.name}</h3>
             <p className="item_descrip">{item.description}</p>
             <p className="item_price">Precio: ${item.price}</p>
-            <Link className="link_buton" to={`/item/${item.id}`}>VER MAS</Link>
+            <button className="link_buton" >Agregar al Carrito</button>
         </article>
     );
 };
 
-export default Item;
+export default ItemDetail;
+
