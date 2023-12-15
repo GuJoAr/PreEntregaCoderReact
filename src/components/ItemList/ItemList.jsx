@@ -1,4 +1,4 @@
-import Item from "../Item/Item";
+import ItemCard from "../ItemCard/ItemCard";
 import { toCapital } from "../../utils/toCapital";
 
 
@@ -7,7 +7,7 @@ const ItemList = ({productos, titulo}) => {
         <section className="list_container">
             <h1 className="list_title">{toCapital(titulo)}</h1>
             <div className="list_item">
-                {productos.map((item) => <Item key={item.id} item={item}/>)}
+                {productos.map((item) => <ItemCard key={item.id} item={item}/>)}
             </div>
         </section>
     );

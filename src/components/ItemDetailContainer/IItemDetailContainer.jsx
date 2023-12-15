@@ -3,21 +3,22 @@ import { useParams } from "react-router-dom";
 import { pedirDatos } from "../../utils/utilidades";
 import ItemDetail from "../ItemDetail/ItemDetail";
 
+
 const ItemDetailContainer = () => {
-    const [item, setItem] = useState(null);
+    const [item, setItem] = useState();
 
     const { itemId } = useParams()
-
+    console.log(itemId)
     useEffect(() => {
         pedirDatos()
             .then((data) => {
-                setItem( data.find(prod => prod.id === Number(itemId)) )
+                setItem( data.find ((prod) => prod.id === Number(itemId)) )
             })
     }, []);
 
     return (
         <>
-            <ItemDetail item={item}/>
+            {item && <ItemDetail item={item} />}
         </>
     );
 };

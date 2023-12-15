@@ -8,16 +8,16 @@ const links = [
         href: "/",
     },
     {
-    label: "Notebooks",
-    href: "/productos/notebooks",
+        label: "Notebooks",
+        href: "/productos/notebooks",
     },
     {
-    label: "Mothers",
-    href: "/productos/mothers",
+        label: "Mothers",
+        href: "/productos/mothers",
     },
     {
-    label: "Contacto",
-    href: "/contacto",
+        label: "Contacto",
+        href: "/contacto",
     }
 ];
 
@@ -25,7 +25,6 @@ const Navbar = () => {
     return (
         <header className="header">
             <div className="container">
-                
                 <Link to="/">
                     <img src={logo} alt="Logo"/>
                 </Link>

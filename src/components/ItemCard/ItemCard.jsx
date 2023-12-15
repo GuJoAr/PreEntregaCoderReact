@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 
-const Item = ({item}) => {
+const ItemCard = ({item}) => {
 
     return (
         <article className="item">
@@ -14,4 +14,4 @@ const Item = ({item}) => {
     );
 };
 
-export default Item;
+export default ItemCard;
