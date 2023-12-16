@@ -2,7 +2,7 @@
 
 
 const ItemDetail = ({ item }) => {
-    console.log(item.img)
+
     return (
         <article className="itemDetail">
             <img src={item.img} alt={item.name} />

@@ -3,12 +3,12 @@
     border: 2px solid #aaa7a7;
 	border-radius: 10px;
     box-shadow: 10px 10px 5px 0px rgba(99,156,204,0.75);
-    width: 550px;
-    height: 550px;
+    width: 650px;
+    height: 650px;
     margin: 50px;
     img {
-        @include imagenes (100%,100%,cover);
-        margin: 10px;
+        @include imagenes (40%,40%,cover);
+        margin: 5px;
     }
     &_title {
         font-size: 30px;

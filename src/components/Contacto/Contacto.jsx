@@ -11,20 +11,20 @@ const Contacto = () => {
             <div className="contac_container">
                 <h2>Sucursal</h2>
                 <div className="contac_pri">
-                    <div className="contac_sec font-medium text-lg flex items-center gap-2">
-                        <IoHomeOutline />Direccion: Calle Falsa 123 Buenos Aires Argentina.
+                    <div className="contac_sec">
+                        <IoHomeOutline /><b>Direccion</b>: Calle Falsa 123 Buenos Aires Argentina.
                     </div>
-                    <div className="contac_sec font-medium text-lg flex items-center gap-2">
-                        <FiPhone />Contacto: (0123) 456-7890
+                    <div className="contac_sec">
+                        <FiPhone /><b>Contacto</b>: (0123) 456-7890
                     </div>
-                    <div className="contac_sec font-medium text-lg flex items-center gap-2">
-                        <FaWhatsapp />Whatsapp: (123)15-123-456
+                    <div className="contac_sec">
+                        <FaWhatsapp /><b>Whatsapp</b>: (123)15-123-456
                     </div>
-                    <div className="contac_sec font-medium text-lg flex items-center gap-2">
-                        <FiMail />Email: computer@store.com
+                    <div className="contac_sec">
+                        <FiMail /><b>Email</b>: computer@store.com
                     </div>
-                    <div className="contac_sec font-medium text-lg flex items-center gap-2">
-                        <IoMdTime />Horario: de 10 a 13hs. y de 17 a 20hs.
+                    <div className="contac_sec">
+                        <IoMdTime /><b>Horario</b>: de 10 a 13hs. y de 17 a 20hs.
                     </div>
                 </div>
             </div>

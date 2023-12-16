@@ -8,7 +8,7 @@ const ItemDetailContainer = () => {
     const [item, setItem] = useState();
 
     const { itemId } = useParams()
-    console.log(itemId)
+
     useEffect(() => {
         pedirDatos()
             .then((data) => {

@@ -3,7 +3,6 @@ import { pedirDatos } from "../utils/utilidades"
 import { useParams } from "react-router-dom"
 
 
-
 const useProductos = () => {
     const [productos, setProductos] = useState([])
     const [titulo, setTitulo] = useState("Productos")
@@ -25,13 +24,6 @@ const useProductos = () => {
             })
     }, [categoria])
 
-    // useEffect(() => {
-    //     pedirDatos() 
-    //         .then((data) => {
-    //                 setProductos( data )
-    //             })      
-    // }, [])
-    
     return {productos, titulo}
 }
 
