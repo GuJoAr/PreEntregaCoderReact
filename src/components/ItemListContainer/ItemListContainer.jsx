@@ -1,14 +1,19 @@
 import ItemList from "../ItemList/ItemList"
 import useProductos from "../../hooks/useProductos"
+import Loader from "../Loader/Loader"
 
 
 const ItemListContainer = (  ) => {
 
-    const {productos, titulo} = useProductos()
+    const {productos, titulo, loading} = useProductos()
 
     return (
         <div>
-            <ItemList productos={productos} titulo={titulo}/>
+            {loading ? (
+                <Loader />
+                ) : (
+                    <ItemList productos={productos} titulo={titulo} />
+                )}
         </div>
         
     )
