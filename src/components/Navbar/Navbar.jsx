@@ -24,7 +24,7 @@ const links = [
 const Navbar = () => {
     return (
         <header className="header">
-            <div className="container">
+            <div className="conteiner">
                 <Link to="/">
                     <img src={logo} alt="Logo"/>
                 </Link>
