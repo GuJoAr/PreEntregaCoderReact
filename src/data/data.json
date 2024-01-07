@@ -17,7 +17,7 @@
 }, {
     "id":3,
     "categoria":"notebooks",
-    "stock":15,
+    "stock":3,
     "name":"Notebook Gamer XPG XENIA",
     "price":10000,
     "img":"/productos/notebooks/XENIA_XPG_15.6_Core_i7_12650H_16GB_512GB_SSD_RTX_4050_6GB.png",
@@ -49,7 +49,7 @@
 }, {
     "id":7,
     "categoria":"mothers",
-    "stock":12,
+    "stock":2,
     "name":"Mother ASUS ROG MAXIMUS Z790",
     "price":7500,
     "img":"/productos/mothers/ASUS_ROG_MAXIMUS_Z790_LGA1700_DDR5.png",
@@ -65,7 +65,7 @@
 }, {
     "id":9,
     "categoria":"mothers",
-    "stock":9,
+    "stock":2,
     "name":"Mother ASUS ROG MAXIMUS Z690 HERO EVA",
     "price":8000,
     "img":"/productos/mothers/ASUS_ROG_MAXIMUS_Z690_HERO_EVA_12th_13th_Gen_DDR5.png",
@@ -89,7 +89,7 @@
 }, {
     "id":12,
     "categoria":"mothers",
-    "stock":4,
+    "stock":3,
     "name":"Mother ASUS ROG STRIX X670E-A GAMING WIFI",
     "price":6500,
     "img":"/productos/mothers/ASUS_ROG_STRIX_X670E-A_GAMING_WIFI_AM5_DDR5.png",

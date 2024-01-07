@@ -9,11 +9,11 @@ const ItemListContainer = (  ) => {
 
     return (
         <div>
-            {loading ? (
-                <Loader />
-                ) : (
-                    <ItemList productos={productos} titulo={titulo} />
-                )}
+            {
+                loading
+                ? <Loader/>
+                : <ItemList productos={productos} titulo={titulo}/>
+            }
         </div>
         
     )

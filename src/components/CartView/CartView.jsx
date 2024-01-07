@@ -2,12 +2,15 @@ import { useContext } from "react"
 import { FaRegTrashCan } from "react-icons/fa6";
 import { CartContext } from "../../context/CartContext";
 import { UserContext } from "../../context/UserContext";
+import EmtpyCart from "./EmtpyCart";
 
 
 
 const CartView = () => {
     const { cart, totalCart, clearCart, removeItem } = useContext(CartContext)
     const { user } = useContext(UserContext)
+
+    if (cart.length === 0) return <EmtpyCart />
 
     return (
         <section className="cartView">

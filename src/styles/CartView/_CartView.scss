@@ -1,5 +1,5 @@
 .cartView {
-    @include flex (column,start,space-evenly);
+    @include flex (column,flex-start,space-evenly);
     gap: 10px;
     margin: 20px;
     padding: 5px;
