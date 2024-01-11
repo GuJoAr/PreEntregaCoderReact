@@ -1,5 +1,4 @@
 
-
 const QuantitySelector = ({cantidad, stock, setCantidad}) => {
 
         const handleSumar = () => {

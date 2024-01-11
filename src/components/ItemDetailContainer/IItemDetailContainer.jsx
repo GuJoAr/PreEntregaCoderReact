@@ -5,7 +5,6 @@ import Loader from "../Loader/Loader";
 import { db } from "../../firebase/config";
 import { doc, getDoc } from "firebase/firestore";
 
-
 const ItemDetailContainer = () => {
     const [loading, setLoading] = useState(true);
     const [item, setItem] = useState(null);

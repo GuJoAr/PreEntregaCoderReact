@@ -8,7 +8,7 @@ const EmtpyCart = () => {
             <h2 className="text-4xl font-semibold">Tu carrito está vacío</h2>
             <hr />
             <p>Agrega algún producto a tu carrito</p>
-            <button className="link_buton">
+            <button className="cart_buton">
                 <Link to={"/"}>Volver</Link>
             </button>
         </section>

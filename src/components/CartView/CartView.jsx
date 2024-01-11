@@ -21,7 +21,7 @@ const CartView = () => {
                 {
                     cart.map((item) => (
                         <li key={item.id} className="flex gap-3 border-b my-4">
-                            <img src={item.img} alt="Cart img" className="w-32"/>
+                            <img src={item.img} alt={item.name} className="m-4 w-32 h-32"/>
                             <div>
                                 <h3 className="text-2xl">{item.name}</h3>
                                 <p className="text-2xl font-bold">$ {item.price * item.cantidad}</p>
@@ -36,8 +36,8 @@ const CartView = () => {
             </ul>
             <hr className="mb-3 bg-stone-600 h-0.5 w-full"></hr>
             <h4 className="text-4xl font-semibold">TOTAL: ${totalCart()}</h4>
-            <button className="link_buton" onClick={clearCart}>Vaciar carrito</button>
-            <button className="link_buton" ><Link to="/checkout">Terminar mi compra</Link></button>
+            <button className="cart_buton" onClick={clearCart}>Vaciar carrito</button>
+            <button className="cart_buton" ><Link to="/checkout">Terminar mi compra</Link></button>
         </section>
     )
 }
